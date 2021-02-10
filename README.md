@@ -12,6 +12,6 @@ Stop-Word eliminator has 2 versions, static and dynamic. Static one requires pre
 
 Normalizer works using predefined normalization lexicon and Levenshtein distance calculating both whole word and consonant letters only, facilitating the both.
 
-Stemmer works in a rule based fashion by checking many of the suffixes that exist in Turkish language in an ordered fashion following the extra rules containing irregularities. It can also tell if the given word is a noun or verb based on their suffixes.
+Stemmer works in a rule based fashion by checking many of the suffixes that exist in Turkish language in an ordered fashion following the extra rules containing irregularities. It can also tell if the given word is a noun or verb based on their suffixes. It covers almost all of the inflectional suffixes and some derivational suffixes.
 
 Data folder contains lots of lexicons for multi-word-expressions, normalization, prefixes, abbreviations(non-breaking prefixes), stop-words, etc.
